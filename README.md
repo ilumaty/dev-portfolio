@@ -1,6 +1,5 @@
 # dev-portfolio
 <pre>
-```
     * HI, THIS IS LEO'S PORTFOLIO * 
     ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜  ·
                                          ·
