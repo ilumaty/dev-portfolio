@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Leo pour vos projets web. Formulaire de contact pour discuter de vos besoins en développement web.">
+    <meta property="og:title" content="Contact | Leo's Web">
+    <meta property="og:description" content="Contactez Leo pour vos projets web. Formulaire de contact pour discuter de vos besoins en développement web.">
+    <meta property="og:type" content="website">
+    <title>
+      Contact | Leo's Web
+    </title>
+    <link rel="stylesheet" type="text/css" href="vault/assets/css/variables.css">
+    <link rel="stylesheet" type="text/css" href="vault/assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="vault/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="vault/assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="vault/assets/css/responsive.css">
+  </head>
+  <body>
+  <div id="stars-background"></div>
+    <header id="header-banner">
+      <nav id="navigationHeader" role="navigation" aria-label="Main navigation">
+        <div id="burger" role="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+          <h2 id="mobile-menuTitle">Menu</h2>
+          <a class="mobile-menuLink" href="index.html" role="menuitem">Home</a>
+          <a class="mobile-menuLink" href="contact.html" role="menuitem">Contact</a>
+          <a class="mobile-menuLink" href="projects.html" role="menuitem">Projects</a>
+        </div>
+        <a
+                id="home"
+                href="index.html"
+                title="Go to homepage">
+          <img
+                  id="logo-color"
+                  src="vault/assets/img/logo/logo_colors_LEO_w.png"
+                  alt="Logo of Leo's portfolio">
+        </a>
+        <a
+                class="txt-banner modif"
+                id="contact"
+                href="contact.html">
+                      <span
+                              class="border-effect"
+                              title="Go here contact me">Contact
+                      </span>
+        </a>
+        <a
+                class="txt-banner modif"
+                id="projects"
+                href="projects.html"
+                title="Go here my projects">
+                      <span
+                              class="border-effect">Projects
+                      </span>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section id="container-contact">
+        <div id="background-contact">
+        </div>
+        <form id="background-form" method="POST" action="/submit-form" aria-label="Contact form">
+          <fieldset>
+            <legend id="title-page-contact">
+              <span id="first-word-title-contact">
+                Prendre
+              </span> <br>
+                Contact
+            </legend>
+            <label
+                      for="firstname"
+                      id="firstname-label-contact"
+                      class="style-txt-title">
+              Votre prenom
+              <input
+                      type="text"
+                      id="firstname"
+                      name="firstname"
+                      placeholder="Exemple: Max"
+                      class="input-fn"
+                      required
+                      minlength="2"
+                      maxlength="50"
+                      aria-required="true">
+            </label>
+            <label
+                      for="lastname"
+                      id="lastname-label-contact"
+                      class="style-txt-title">
+              Votre Nom
+              <input
+                      type="text"
+                      id="lastname"
+                      name="lastname"
+                      placeholder="Exemple: Scott"
+                      class="input-ln"
+                      required
+                      minlength="2"
+                      maxlength="50"
+                      aria-required="true">
+            </label>
+            <label
+                      for="email"
+                      class="style-txt-title">
+              Votre Email
+              <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Exemple: max78@hotmail.com"
+                      class="input-mail"
+                      required
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                      aria-required="true">
+            </label>
+            <label
+                      for="message"
+                      id="message-label-contact"
+                      class="style-txt-title">
+              Votre demande
+              <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Exemple: Je souhaite faire un site web statique pour mon restaurant take-away. Pouvez-vous revenir vers moi svp ?"
+                      class="message-txt-style"
+                      required
+                      minlength="10"
+                      maxlength="1000"
+                      aria-required="true"></textarea>
+            </label>
+            <input
+                      type="submit"
+                      value="Envoyer"
+                      id="submit">
+          </fieldset>
+        </form>
+        <div id="image-user">
+          <img
+                      id="style-img-contact"
+                      src="vault/assets/img/contact/alien_user.svg"
+                      alt="Alien user illustration"
+                      loading="lazy">
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div id="style-footer">
+          <div id="footer-copyright">
+          </div>
+          <h5 id="footer-title">Leo - Made with passion and love
+          </h5>
+        </div>
+        <div id="footer-background">
+        </div>
+    </footer>
+    <script
+              src="vault/js/main.js"
+              defer>
+    </script>
+    <script
+              src="vault/js/contact.js"
+              defer>
+    </script>
+    <script
+              src="vault/js/responsive.js"
+              defer>
+    </script>
+    <script
+            src="vault/js/stars.js">
+    </script>
+  </body>
+</html>

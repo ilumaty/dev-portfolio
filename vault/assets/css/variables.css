@@ -1,0 +1,54 @@
+:root {
+    /* colors */
+    --accent-color: #0090BE;
+    --accent-rgb: 0, 144, 190;
+    --accent-dark-color: #005C7A;
+    --accent-dark-rgb: 0, 92, 122;
+    --contact-bacground-color: rgba(0, 144, 190, 0.2);
+    --details-light: rgba(255, 255, 255, 0.5);
+    --form-background: #3A4A40;
+    --input-background: #8BB49D;
+    --main-background: #0A100D;
+    --main-rgb: 10, 16, 13;
+    --rust-background: rgba(188, 91, 62, 0.4);
+    --rust-rgb: 188, 91, 62;
+    --secondary-background: #3A4A40;
+    --secondary-rgb: 58, 74, 64;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+    --text-details: #DDEAE1;
+    --text-rgb: 221, 234, 225;
+
+    /* opacity variables */
+    --overlay-opacity: 0.4;
+    --overlay-color: rgba(0, 0, 0, var(--overlay-opacity));
+
+    /* typographies */
+    --return-of-the-grid: 'Return of the Grid', sans-serif;
+    --futura-medium: 'Futura Medium', sans-serif;
+    --futura-bold: 'Futura Bold', sans-serif;
+    --dispence: 'Dispence', sans-serif;
+
+    /* --------------------------------HEADER----------------------------------------------------- */
+    /* animations header dégradés,colors */
+    --star-gradient-horizontal: linear-gradient(90deg, transparent, var(--text-details), transparent);
+    --star-gradient-vertical: linear-gradient(180deg, transparent, var(--text-details), transparent);
+    --star-gradient-reverse: linear-gradient(270deg, transparent, var(--text-details), transparent);
+
+    /* animations transforms */
+    --transform-top: rotate(2deg);
+    --transform-right: rotate(-5deg) translateX(3px);
+    --transform-bottom: rotate(-5deg) translateX(3px);
+    --transform-left: rotate(-5deg) translateX(-3px);
+
+    /* animations basics */
+    --animation-duration: 2s;
+    --animation-timing: ease;
+    --animation-delay: 0.5s;
+    --animation-reverse-settings: var(--animation-duration) var(--animation-timing) forwards var(--animation-delay);
+
+    /* animations enter */
+    --animation-forward-duration: 1s;
+    --animation-other-duration: 2s;
+    --animation-forward-settings: var(--animation-forward-duration) var(--animation-timing) forwards paused;
+    --animation-other-settings: var(--animation-other-duration) var(--animation-timing) forwards paused;
+}

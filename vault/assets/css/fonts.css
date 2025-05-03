@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Return of the Grid';
+    src:
+            url("../fonts/r_o_g/return_of_the_grid.woff2") format("woff2"),
+            url("../fonts/r_o_g/return_of_the_grid.ttf") format("truetype"),
+            url("../fonts/r_o_g/return_of_the_grid.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Futura Medium';
+    src:
+            url("../fonts/futura/futura_medium.woff2") format("woff2"),
+            url("../fonts/futura/futura_medium.ttf") format("truetype"),
+            url("../fonts/futura/futura_medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Futura Bold';
+    src:
+            url("../fonts/futura/futura_bold.woff2") format("woff2"),
+            url("../fonts/futura/futura_bold.ttf") format("truetype"),
+            url("../fonts/futura/futura_bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Dispence';
+    src:
+            url("../fonts/dispence/dispence.woff2") format("woff2"),
+            url("../fonts/dispence/dispence.ttf") format("truetype"),
+            url("../fonts/dispence/dispence.otf") format("opentype");
+}
