@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
             loadingText.textContent = "Completed";
             // add l'id de fond d'arrère plan flash
             document.getElementById('overlay-background-movie').classList.add('fade-out');
-            // délai à 500ms avant la redirection de la page html pour voir le 100%
-            setTimeout(() => window.location.href = 'index.html', 500);
+            // Github
+            window.location.href = 'index.html';
             return;
         }
         // ralentis la progression avant les 100%
