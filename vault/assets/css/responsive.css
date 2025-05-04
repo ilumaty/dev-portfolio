@@ -1568,8 +1568,13 @@
     #moon-project,
     #mars-project,
     #astro-project,
-    #jupiter-project {
+    #jupiter-project,
+    .project-container,
+    .style-img-project {
         -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
         outline: none;
     }
 
@@ -1577,6 +1582,7 @@
     #mars-project:active,
     #astro-project:active,
     #jupiter-project:active {
+        background-color: transparent;
         box-shadow: 0 0 5px 2px var(--text-details);
         opacity: 0.7;
         -webkit-tap-highlight-color: transparent;
