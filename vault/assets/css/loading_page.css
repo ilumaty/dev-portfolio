@@ -16,11 +16,21 @@ body, html {
     z-index: 1;
 }
 
+.video-background-wrapper {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
 .video-background {
+    border: 0;
     height: 100%;
     left: 0;
     position: absolute;
-    object-fit: cover;
     top: 0;
     width: 100%;
     z-index: -1;
