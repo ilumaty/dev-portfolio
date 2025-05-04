@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const textHeading = "<h1>Des projets qui prennent vie</h1>";
     const subHeading = "<h2>Des idées, de l\'innovation tout commence ici</h2>";
 
+    // vide cash HTML titre projects.html
+    projectsTitle.textContent = "";
+    projectsSubtitle.textContent = "";
+
     // ajout de variable pour les intégrer à l'animation
     let mainPos = 0;
     let subPos = 0;
