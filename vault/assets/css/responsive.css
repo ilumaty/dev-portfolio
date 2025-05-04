@@ -1562,6 +1562,27 @@
     }
 }
 
+    /* ------------------------ hover
+        <section skills> ------------------------ */
+@media (hover: none) {
+    #moon-project,
+    #mars-project,
+    #astro-project,
+    #jupiter-project {
+        -webkit-tap-highlight-color: transparent;
+        outline: none;
+    }
+
+    #moon-project:active,
+    #mars-project:active,
+    #astro-project:active,
+    #jupiter-project:active {
+        box-shadow: 0 0 5px 2px var(--text-details);
+        opacity: 0.7;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
     /* ------------------------ réduction des animations
     pour les personnes à handicap ------------------------ */
 @media (prefers-reduced-motion: reduce) {
