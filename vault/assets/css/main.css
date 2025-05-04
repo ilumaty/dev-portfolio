@@ -647,7 +647,7 @@ body {
 #mars-project:hover,
 #astro-project:hover,
 #jupiter-project:hover {
-    box-shadow: 0 0 20px 8px var(--accent-color) !important;
+    box-shadow: 0 0 20px 8px var(--accent-color);
     position: relative;
     opacity: 0.7;
 }
