@@ -1567,25 +1567,6 @@
     }
 }
 
-    /* ------------------------ height
-        <loading page> ------------------------ */
-@supports (-webkit-touch-callout: none) {
-        html, body {
-          height: 100vh;
-          height: -webkit-fill-available;
-          min-height: -webkit-fill-available;
-        }
-      
-        .video-background-wrapper,
-        .video-background,
-        .overlay-background-movie,
-        .loading-container {
-          height: 100vh;
-          height: -webkit-fill-available;
-          min-height: -webkit-fill-available;
-        }
-}
-
     /* ------------------------ hover
         <section skills> ------------------------ */
 @media (hover: none) {
