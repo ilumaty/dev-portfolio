@@ -75,7 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // function qui va démarrer le slide auto
     function startAuto() {
         clearInterval(autoSlide); // clear pour éviter des doubles
-        if (!isPaused && isSliderActive) { // si pas en pause
+        const isMobile = window.innerWidth <= 768; // contrôle si sur mobile
+        if (!isPaused && isSliderActive && !isMobile) { // si pas en pause, et pas mobile
             autoSlide = setInterval(nextSlide, 5000) // démarre à 5.5s
         }
     }
