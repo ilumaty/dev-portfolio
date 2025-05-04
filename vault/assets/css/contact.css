@@ -275,11 +275,10 @@ textarea:focus {
 }
 
 #movie-form {
+    aspect-ratio: 16 / 9;
+    border: none;
     border-radius: 11px 11px 0 0;
     display: block;
-    height: 720px;
-    object-fit: cover;
-    object-position: center;
     width: 100%;
 }
 
