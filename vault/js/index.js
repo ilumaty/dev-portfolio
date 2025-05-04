@@ -27,4 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
             changeImgBlack.src = originalWhiteSrc;
         });
     });
+        // ***************************** mailing no-bot *******************************************
+        // add variable mail
+        const u = 'maxstudy66';
+        const d = ['gmail', 'com'].join('.');
+        const e = `${u}@${d}`;
+        const l = document.getElementById('m-l');
+            if (l) {
+                l.setAttribute('href', `mailto:${e}`);
+            }
 });
