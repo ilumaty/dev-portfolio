@@ -189,14 +189,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 // remplace par la video de validation
                 formContainer.innerHTML = `
             <div class="form-container fade-in">
-                <video 
-                autoplay muted playsinline
-                id="movie-form">
-                    <source 
-                    src="vault/assets/movies/valid_form.mp4"
-                    type="video/mp4">
-                    Votre navigateur ne supporte malheureusement pas la video de validation de formulaire.
-                </video>
+                <iframe
+                  id="movie-form"
+                  src="https://iframe.videodelivery.net/982eb88f29fffbe9fb67a25186586616?autoplay=true&muted=true&loop=true&controls=false"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen>
+                </iframe>
                 <p 
                     id="success-message">
                     Merci !<br> Formulaire envoye avec succes
@@ -207,20 +205,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 // reset le form mobile
                 form.reset();
 
-                // add constantes de la video pour gérer les modif mobile et desktop
-                const video = formContainer.querySelector('video');
-                video.onended = function () {
-                    const successContainer = formContainer.querySelector('.form-container');
-                    successContainer.classList.add('fade-out');
-
-                    setTimeout(() => {
-                        formContainer.innerHTML = originalForm;
-                        backgroundContact.classList.remove('blur');
-                        // img qui revient fin de movie
-                        imageContainer.style.display = 'block';
-                        reconnectFormEvents();
-                    }, 1000);
-                };
+                setTimeout(() => {
+                  const successContainer = formContainer.querySelector('.form-container');
+                  successContainer.classList.add('fade-out');
+                
+                  setTimeout(() => {
+                    formContainer.innerHTML = originalForm;
+                    backgroundContact.classList.remove('blur');
+                    imageContainer.style.display = 'block';
+                    reconnectFormEvents();
+                  }, 1000);
+                }, 5000); // timing movie
+                
                 // format desktop
             } else {
                 imageContainer.innerHTML = `
@@ -240,10 +236,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 // reset le form
                 form.reset();
 
-                const video = imageContainer.querySelector('video');
-                video.onended = function () {
-                    imageContainer.innerHTML = originalImageContent;
-                };
+                setTimeout(() => {
+                  imageContainer.innerHTML = originalImageContent;
+                }, 5000); // timing movie
             }
         }
         // add function pour remettre en place le form
