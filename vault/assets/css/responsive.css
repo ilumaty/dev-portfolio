@@ -697,7 +697,7 @@
             height: 20px;
             margin-right: 20px;
             padding: 15px;
-            position: absolute;
+            position: fixed;
             right: 20px;
             top: 25px;
             width: 50px;
