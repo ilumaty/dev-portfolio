@@ -639,6 +639,12 @@
 @media (max-width: 769px) {
 
     /* ------------------------ <loading page> ------------------------ */
+
+          .loading-text, #loading-percentage  {
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+
         .loading-container .logo-container #logo {
             animation: scale-up-mobile 3s ease-in-out forwards;
             width: 150px;
