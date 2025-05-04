@@ -1,192 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Leo - Web Developer | Portfolio
-    </title>
-    <link rel="icon" href="vault/assets/img/icon_head/old_nav.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="vault/assets/img/icon_head/old_nav.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="vault/assets/img/icon_head/apple.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="vault/assets/img/icon_head/icon_head_32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="vault/assets/img/icon_head/icon_head_16.png">
-    <link rel="stylesheet" type="text/css" href="vault/assets/css/variables.css">
-    <link rel="stylesheet" type="text/css" href="vault/assets/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="vault/assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="vault/assets/css/responsive.css">
-</head>
-<body>
-<div id="stars-background"></div>
-<header id="header-banner">
-    <nav id="navigationHeader">
-        <div id="burger">
-            <span></span>
-            <span></span>
-            <span></span>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+          Loading Page | Leo's Web
+      </title>
+      <link rel="icon" href="vault/assets/img/icon_head/old_nav.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="vault/assets/img/icon_head/old_nav.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" href="vault/assets/img/icon_head/apple.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="vault/assets/img/icon_head/icon_head_32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="vault/assets/img/icon_head/icon_head_16.png">
+      <link rel="stylesheet" type="text/css" href="vault/assets/css/variables.css">
+      <link rel="stylesheet" type="text/css" href="vault/assets/css/fonts.css">
+      <link rel="stylesheet" type="text/css" href="vault/assets/css/loading_page.css">
+      <link rel="stylesheet" type="text/css" href="vault/assets/css/responsive.css">
+      <link rel="preload" as="image" href="vault/assets/img/logo/loading/logo_mono_LEO_w.svg" type="image/svg+xml">
+      <link rel="preload" as="video" href="vault/assets/movies/back_landing.mp4" type="video/mp4">
+  </head>
+  <body>
+    <video class="video-background" autoplay muted loop playsinline>
+      <source src="vault/assets/movies/back_landing.mov" type="video/quicktime">
+      <source src="vault/assets/movies/back_landing.mp4" type="video/mp4">
+      <source src="vault/assets/movies/back_landing.webm" type="video/webm">
+        Oupssss un little bug s’est glissé par ici… Votre navigateur n'est pas compatible avec la loading page
+    </video>
+
+    <div
+            class="overlay-background-movie"
+            id="overlay-background-movie">
+    </div>
+    <div class="loading-container">
+        <div class="logo-container">
+            <object type="image/svg+xml"
+                    data="vault/assets/img/logo/loading/logo_mono_LEO_w.svg"
+                    id="logo"
+                    aria-label="Logo of loading page Leo"
+                    title="Logo of loading page Leo"
+                    role="img">
+            </object>
         </div>
-        <div class="mobile-menu">
-            <h2 id="mobile-menuTitle">Menu</h2>
-            <a class="mobile-menuLink" href="index.html">Home</a>
-            <a class="mobile-menuLink" href="contact.html">Contact</a>
-            <a class="mobile-menuLink" href="projects.html">Projects</a>
+        <div class="loading-text">
+            Loading..
         </div>
-        <a id="home" href="index.html" title="Go to homepage">
-            <img id="logo-color" src="vault/assets/img/logo/logo_colors_LEO_w.png" alt="Logo of Leo's portfolio">
-        </a>
-        <a class="txt-banner modif" id="contact" href="contact.html">
-            <span class="border-effect" title="Go here contact me">Contact</span>
-        </a>
-        <a class="txt-banner modif" id="projects" href="projects.html" title="Go here my projects">
-            <span class="border-effect">Projects</span>
-        </a>
-    </nav>
-</header>
-<div id="content-all-page">
-    <main>
-        <section class="home-intro">
-            <div id="main-container">
-                <div class="section-title-main">
-                    <h1 aria-label="Leo Web Developer" id="typed-title-home" class="style-main"></h1>
-                    <p aria-label="The world of ideas and technology" id="typed-p-home" class="style-main"></p>
-                    <span aria-label="Location information: Based in Switzerland" id="typed-span-home" class="style-main-span"></span>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section id="container-about-me" class="section-container">
-        <div id="content-about-me">
-            <h2 id="title-about">About me</h2>
-            <h3 id="subtitle-about">Developer Leo</h3>
-            <p id="txt-about">
-                Commercial de métier depuis 10 ans,<br>j'ai décidé de me réinventer en me lançant dans la tech.<br>
-                Deux mots pour me définir :<br>
-                <span id="highlighted-txt">impliqué et persévérant.</span>
-            </p>
-            <div id="card-about">
-                <h3 id="title-card">Ping me</h3>
-                <a href="https://github.com/ilumaty" class="ping-link" target="_blank" rel="noopener noreferrer">
-                    <img alt="Github's Leo" src="vault/assets/img/about/github.svg" class="container-ping">
-                    <span class="ping-txt">Click ici pour découvrir mon GitHub</span>
-                </a>
-                <a href="mailto:maxstudy66@gmail.com" class="ping-link">
-                    <img alt="Gmail's Leo" src="vault/assets/img/about/mail.svg" class="container-ping">
-                    <span class="ping-txt">Click ici pour me mailer</span>
-                </a>
-            </div>
-            <div id="background-about-me"></div>
+        <div id="loading-percentage">
+            0
         </div>
-    </section>
-    <section id="container-cv" class="section-container">
-        <div id="meteor-cv">
-            <img alt="Meteor in night sky" src="vault/assets/img/cv/meteor.svg">
-            <div id="arrow-right-cv"></div>
-            <div id="container-WSE">
-                <h4 class="cv-date" id="WSE-date">2025 March - Ongoing</h4>
-                <article id="WSE-school">
-                    <h3 class="cv-txt">
-                        WSE Lausanne -<br>
-                        Currently B2, target C1+
-                    </h3>
-                </article>
-                <div id="arrow-left-cv"></div>
-            </div>
-            <div id="container-SAE">
-                <h4 class="cv-date" id="SAE-date">2024 August - Ongoing</h4>
-                <article id="SAE-school">
-                    <h3 class="cv-txt">
-                        SAE Geneva - Bachelor<br>
-                        Web Development
-                        <span id="txt-under-SAE">
-                                    Code mode : launching Dec. 2024
-                                </span>
-                    </h3>
-                </article>
-            </div>
-        </div>
-        <div id="background-cv"></div>
-    </section>
-    <section id="container-works" class="section-container">
-        <div id="background-recent-works">
-            <button id="arrow-left-container" aria-label="Go to the slide before">
-                <img alt="Navigate left" src="vault/assets/main/slider/arrows/arrow_left.svg" id="arrow-left-slider">
-            </button>
-            <button id="play-pause-container" aria-label="Stop the slide or play the slide">
-                <img alt="Click to pause..." src="vault/assets/main/slider/pause/pause.svg" id="play-pause">
-            </button>
-            <button id="arrow-right-container" aria-label="Go to the next slide">
-                <img alt="Navigate right" src="vault/assets/main/slider/arrows/arrow_right.svg" id="arrow-right-slider">
-            </button>
-            <h2 id="txt-recent-works">Recent works</h2>
-            <div class="slide">
-                <div class="project-container">
-                    <div class="style-img-project" id="moon-project"></div>
-                </div>
-                <div class="project-container">
-                    <div class="style-img-project" id="mars-project"></div>
-                </div>
-                <div class="project-container">
-                    <div class="style-img-project" id="astro-project"></div>
-                </div>
-                <div class="project-container">
-                    <div class="style-img-project" id="jupiter-project"></div>
-                </div>
-            </div>
-            <div class="indicators-container">
-                <span class="indicator active" data-index="0"></span>
-                <span class="indicator" data-index="1"></span>
-                <span class="indicator" data-index="2"></span>
-                <span class="indicator" data-index="3"></span>
-            </div>
-        </div>
-    </section>
-    <section id="skills-universe" class="section-container">
-        <div id="background-galaxy">
-            <div id="icons-container">
-                <div id="icons-skills">
-                    <h3 class="style-skills" id="skills-title">My tech universe</h3>
-                    <h4 class="style-skills" id="skills-subtitle">Tools</h4>
-                    <div class="icons-style">
-                        <img alt="Logo Figma" src="vault/assets/img/skills/icons/figma.svg">
-                    </div>
-                    <div class="icons-style">
-                        <img alt="Logo Adobe" src="vault/assets/img/skills/icons/adobe.svg">
-                    </div>
-                    <div class="icons-style">
-                        <img alt="Logo Illustrator" src="vault/assets/img/skills/icons/illustrator.svg">
-                    </div>
-                    <div class="icons-style">
-                        <img alt="Logo Photoshop" src="vault/assets/img/skills/icons/photoshop.svg">
-                    </div>
-                    <div class="icons-style">
-                        <img alt="Logo Javascript" src="vault/assets/img/skills/icons/js.svg">
-                    </div>
-                    <div class="icons-style">
-                        <img alt="Logo HTML5" src="vault/assets/img/skills/icons/HTML_5.svg">
-                    </div>
-                    <div class="icons-style">
-                        <img alt="Logo CSS3" src="vault/assets/img/skills/icons/CSS_3.svg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div id="style-footer">
-            <div id="footer-copyright"></div>
-            <h5 id="footer-title">Leo - Made with passion and love</h5>
-        </div>
-        <div id="footer-background"></div>
-    </footer>
-</div>
-<a href="#top" class="back-to-top" id="back-to-top">
-    <img alt="Back to top" src="vault/assets/img/top/rocket_scroll.png" id="style-back-to-top" title="Click to return to top">
-</a>
-<script src="vault/js/index_typewrite.js"></script>
-<script src="vault/js/index_slide.js"></script>
-<script src="vault/js/index.js"></script>
-<script src="vault/js/main.js"></script>
-<script src="vault/js/responsive.js"></script>
-<script src="vault/js/stars.js"></script>
-</body>
+    </div>
+    <script
+            src="./vault/js/loading_page.js">
+    </script>
+  </body>
 </html>

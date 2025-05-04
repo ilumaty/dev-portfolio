@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // add l'id de fond d'arrère plan flash
             document.getElementById('overlay-background-movie').classList.add('fade-out');
             // Github
-            window.location.href = 'index.html';
+            window.location.href = 'main.html';
             return;
         }
         // ralentis la progression avant les 100%
