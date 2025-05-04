@@ -1484,7 +1484,22 @@
         #moon-project-page:hover, #mars-project-page:hover, #astro-project-page:hover, #jupiter-project-page:hover {
             box-shadow: none !important;
         }
-
+}
+    /* ------------------------ height
+        <loading page> ------------------------ */
+@supports (-webkit-touch-callout: none) {
+        html, body {
+          height: 100vh;
+          height: -webkit-fill-available;
+        }
+      
+        .video-background-wrapper,
+        .video-background,
+        .overlay-background-movie,
+        .loading-container {
+          height: 100vh;
+          height: -webkit-fill-available;
+        }
 }
 
 @media (min-width: 450px) and (max-width: 600px) {
