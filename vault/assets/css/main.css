@@ -1179,7 +1179,8 @@ body {
 }
 
 #background-galaxy::after {
-    background-color: rgba(10, 16, 13, 0.4);
+    background-color: rgba(10, 16, 13, 0.5);
+    backdrop-filter: blur(2px);
     content: "";
     height: 100%;
     left: 0;
