@@ -225,20 +225,18 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 imageContainer.innerHTML = `
                 <div class="form-container fade-in">
-                <video 
-                autoplay muted playsinline
-                id="movie-form">
-                    <source 
-                    src="vault/assets/movies/valid_form.mp4"
-                    type="video/mp4">
-                    Votre navigateur ne supporte malheureusement pas la video de validation de formulaire.
-                </video>
-                <p 
-                    id="success-message">
-                    Merci !<br> Formulaire envoye avec succes
-                </p>
-            </div>
-            `;
+                    <iframe
+                        src="https://iframe.videodelivery.net/982eb88f29fffbe9fb67a25186586616?autoplay=true&muted=true&loop=true&controls=false"
+                        class="form-video"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                    <p 
+                        id="success-message">
+                        Merci !<br> Formulaire envoye avec succes
+                    </p>
+                </div>
+                `;
                 // reset le form
                 form.reset();
 
