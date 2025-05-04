@@ -28,12 +28,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
         // ***************************** mailing no-bot *******************************************
-        // add variable mail
-        const u = 'maxstudy66';
-        const d = ['gmail', 'com'].join('.');
-        const e = `${u}@${d}`;
-        const l = document.getElementById('m-l');
-            if (l) {
-                l.setAttribute('href', `mailto:${e}`);
+        setTimeout(() => {
+        const pM = 'maxstudy66';
+        const gM = ['gmail', 'com'].join('.');
+        const dM = ['g', 'mail', '.', 'com'].join('');
+        const eM = `${pM}@${dM}`;
+        const lK = document.getElementById('m-l');
+            if (lK) {
+                lK.setAttribute('href', `mailto:${eM}`);
             }
+        }, 1000);
 });
