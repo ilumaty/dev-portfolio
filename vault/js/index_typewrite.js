@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const pText = "<p>Imaginez votre futur digital. Let's make it real</p>";
     const spanText = "<span>based in Switzerland</span>";
 
+    // vide le cash HTML du txt titre main.html
+    titleHome.textContent = "";
+    pHome.textContent = "";
+    spanHome.textContent = "";
+
     // ajout de variable pour les intégrer à l'animation
     let titleIndex = 0;
     let pIndex = 0;
