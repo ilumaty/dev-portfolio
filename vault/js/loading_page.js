@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateProgress(timestamp) {
         let progressSpeed;
         if (progress < 70) {
-            progressSpeed = 0.5;
+            progressSpeed = 0.08;
         } else if (progress < 90) {
-            progressSpeed = 0.3;
+            progressSpeed = 0.05;
         } else {
-            progressSpeed = 0.15;
+            progressSpeed = 0.02;
         }
 
         // simule le chargement par nombre aléatoire sur 100%
