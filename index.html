@@ -22,7 +22,9 @@
     <iframe
       src="https://iframe.videodelivery.net/642a53efa1da40fbaf2a759a9f58b602?autoplay=true&muted=true&loop=true&controls=false"
       class="video-background"
+      loading="eager"
       allow="autoplay; encrypted-media"
+      aria-hidden="true"
       allowfullscreen>
     </iframe>
   </div>
@@ -33,13 +35,12 @@
     </div>
     <div class="loading-container">
         <div class="logo-container">
-            <object type="image/svg+xml"
-                    data="vault/assets/img/logo/loading/logo_mono_LEO_w.svg"
-                    id="logo"
-                    aria-label="Logo of loading page Leo"
-                    title="Logo of loading page Leo"
-                    role="img">
-            </object>
+            <img
+              src="vault/assets/img/logo/loading/logo_mono_LEO_w.svg"
+              id="logo"
+              alt="Logo of loading page Leo"
+              height="180"
+              width="250">
         </div>
         <div class="loading-text">
             Loading..
