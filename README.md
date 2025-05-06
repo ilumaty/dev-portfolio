@@ -59,7 +59,7 @@ Hand-coded using:
 I plan to:
 - Add more interactive features
 - Expand the project showcase
-- Implement dark mode
+- Implement light mode
 - Integrate smoother, creative animations
 
 ⬜ = shooting star | 🟦 = sky | 🟫 = earth
