@@ -4,10 +4,6 @@
     .txt-banner {
         font-size: 1.98rem;
     }
-
-    #main-container{
-
-    }
 }
 
 @media (max-width: 1440px) {
@@ -64,6 +60,21 @@
         #typed-span-home {
             margin-top: 140px;
             margin-left: 650px;
+        }
+    /* ------------------------ <project page> ------------------------ */
+        .style-projects {
+            font-size: 2rem;
+            letter-spacing: 0.245rem;
+            line-height: 1.1;
+            font-weight: 600;
+        }
+
+        #typed-title-projects {
+          width: 500px;
+        }
+  
+        #subtitle-projects {
+            width: 750px;
         }
 }
 
