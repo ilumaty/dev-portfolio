@@ -9,34 +9,34 @@
                                                      ⬜
 </pre>
 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
-HERE'S THE CONCEPT:
+**HERE'S THE CONCEPT:**
 
-CLICK ON THE PAGE "INDEX.HTML" - IT'S YOUR ENTRY POINT WITH A SMOOTH LOADING ANIMATION.
+Click on the page **index.html**, it's your entry point with a smooth loading animation.
 
-YOU'LL BE TAKEN DIRECTLY TO A SUPER FAST AND SMOOTH LOADING PAGE.
+You'll be taken directly to a super-fast & fluid loading page.
 
-AFTER A FEW SECONDS, YOU'LL BE AUTOMATICALLY REDIRECTED TO THE MAIN PAGE.
+After a few seconds.. you'll be automatically redirected to the **main page**.
 
-NOW YOU'RE READY TO EXPLORE MY PORTFOLIO.
+Now you're ready to explore my portfolio.
  
-THE MAIN PAGE IS A SHOWCASE OF MY IDEAS, PROJECTS, AND A CUSTOM SLIDER TO PRESENT MY LATEST WORK.
+The **main page** is a showcase of my ideas, projects & a custom slider to present my latest work.
 
-KEEP SCROLLING TO DISCOVER MORE ABOUT ME.
+Keep scrolling to discover more about me.
 
-IF YOU'RE CURIOUS, YOU CAN ALREADY CLICK TO EMAIL ME OR CHECK OUT GITHUB.
+If you're curious, you can already click to email me or check out GitHub.
 
-CONTINUE DOWN TO EXPLORE MY CV, PROFESSIONAL JOURNEY, AND TECHNICAL SKILLS - EVERYTHING I'M DEVELOPING TO GROW AS A WEB PROFESSIONAL.
+Continue down to explore my CV, professional journey & technical skills - everything I'm developing to grow.
 
-WANT TO GO BACK TO THE TOP? CLICK THE ROCKET FOR INSTANT NAVIGATION.
+Want to go back to the top? Click the rocket for instant navigation.
 
-FROM THE HEADER, HIT "CONTACT" TO SEND ME A MESSAGE OR BROWSE ALL MY PROJECTS.
+From the header, hit **Contact** to send me a message or browse all my projects.
 
-THE OTHER OPTION? EXPLORE ALL MY PROJECTS.
+The other option? Explore all my projects.
 
-THANKS FOR READING ME AND SEE YOU IN THE FUTURE.
+Thanks for reading & see you in the near future.
 
-BY CODING MORE,  
-LEO DEV
+By coding more,  
+Leo DEV
 <pre>
      *    
      *    
