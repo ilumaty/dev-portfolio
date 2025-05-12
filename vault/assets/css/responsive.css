@@ -68,14 +68,6 @@
             line-height: 1.1;
             font-weight: 600;
         }
-
-        #typed-title-projects {
-          width: 500px;
-        }
-  
-        #subtitle-projects {
-            width: 750px;
-        }
 }
 
 @media (max-width: 1200px) {
