@@ -1,9 +1,9 @@
 /* ------------------------ modification white
                             screen exception -------- */
 @media (min-width: 1441px) {
-    .txt-banner {
-        font-size: 1.98rem;
-    }
+        .txt-banner {
+            font-size: 1.98rem;
+        }
 }
 
 @media (max-width: 1440px) {
@@ -443,47 +443,47 @@
         }
     /* ------------------------ <project page> ------------------------ */
 
-    #header-banner {
-        height: 11vh !important;
-    }
-
-    .txt-banner {
-        font-size: 1.4rem !important;
-    }
-
-    #logo-color {
-        min-width: 10vw;
-        width: 10vw;
-    }
-
-    .style-projects {
-        letter-spacing: 0.15rem !important;
-    }
-
-    #typed-title-projects {
-        font-size: 1.333rem !important;
-        height: 100px !important;
-        margin-left: 65px !important;
-        margin-top: 95px !important;
-        min-height: 80px !important;
-    }
-
-    #subtitle-projects {
-        font-size: 1.333rem !important;
-        margin-left: 85px !important;
-    }
-
-    #projects-typed-container {
-        height: 550px !important;
-    }
-
-    .home-intro {
-        height: 55vh !important;
-    }
-
-    #moon-project-page:hover, #mars-project-page:hover, #astro-project-page:hover, #jupiter-project-page:hover {
-        box-shadow: 0 0 20px 8px var(--accent-color) !important;
-    }
+        #header-banner {
+            height: 11vh !important;
+        }
+    
+        .txt-banner {
+            font-size: 1.4rem !important;
+        }
+    
+        #logo-color {
+            min-width: 10vw;
+            width: 10vw;
+        }
+    
+        .style-projects {
+            letter-spacing: 0.15rem !important;
+        }
+    
+        #typed-title-projects {
+            font-size: 1.333rem !important;
+            height: 100px !important;
+            margin-left: 65px !important;
+            margin-top: 95px !important;
+            min-height: 80px !important;
+        }
+    
+        #subtitle-projects {
+            font-size: 1.333rem !important;
+            margin-left: 85px !important;
+        }
+    
+        #projects-typed-container {
+            height: 550px !important;
+        }
+    
+        .home-intro {
+            height: 55vh !important;
+        }
+    
+        #moon-project-page:hover, #mars-project-page:hover, #astro-project-page:hover, #jupiter-project-page:hover {
+            box-shadow: 0 0 20px 8px var(--accent-color) !important;
+        }
 }
 
 @media (max-width: 900px) {
@@ -651,7 +651,7 @@
 
     /* ------------------------ <loading page> ------------------------ */
 
-          .loading-text, #loading-percentage  {
+        .loading-text, #loading-percentage  {
             font-size: 17px;
             margin-bottom: 25px;
         }
@@ -1507,102 +1507,102 @@
     /* ------------------------ <header>
                   <nav> ------------------------ */
 
-    #logo-color {
-        animation: none;
-        width: 9vw;
-    }
-
-    #header-banner {
-        height: 18vh;
-    }
-
-    .txt-banner {
-        font-size: 1.44rem;
-    }
+        #logo-color {
+            animation: none;
+            width: 9vw;
+        }
+    
+        #header-banner {
+            height: 18vh;
+        }
+    
+        .txt-banner {
+            font-size: 1.44rem;
+        }
 
     /* ------------------------ <section>
                               <main> ------------------------ */
-    .home-intro {
-        min-height: 80vh;
-    }
-
-    #main-container {
-        max-height: 450px;
-        width: 100%;
-    }
-
-    .style-main {
-        font-size: 1.88rem;
-        letter-spacing: 0.189rem;
-        margin-left: -0.01rem;
-    }
-
-    #typed-title-home {
-        margin-top: 90px;
-        margin-left: 80px;
-        height: 121px;
-        width: 600px;
-    }
-
-    #typed-p-home {
-        margin-top: 0;
-        margin-left: 110px;
-        margin-bottom: 45px;
-        max-width: 600px;
-        height: 65px;
-        width: auto;
-    }
-
-    .style-main-span {
-        font-size: 0.95rem;
-        letter-spacing: 0.07rem;
-    }
-
-    #typed-span-home {
-        top: 310px;
-        margin-left: 442px;
-    }
-
-    #main-container {
-        height: 450px;
-        width: 100%;
-    }
+        .home-intro {
+            min-height: 80vh;
+        }
+    
+        #main-container {
+            max-height: 450px;
+            width: 100%;
+        }
+    
+        .style-main {
+            font-size: 1.88rem;
+            letter-spacing: 0.189rem;
+            margin-left: -0.01rem;
+        }
+    
+        #typed-title-home {
+            margin-top: 90px;
+            margin-left: 80px;
+            height: 121px;
+            width: 600px;
+        }
+    
+        #typed-p-home {
+            margin-top: 0;
+            margin-left: 110px;
+            margin-bottom: 45px;
+            max-width: 600px;
+            height: 65px;
+            width: auto;
+        }
+    
+        .style-main-span {
+            font-size: 0.95rem;
+            letter-spacing: 0.07rem;
+        }
+    
+        #typed-span-home {
+            top: 310px;
+            margin-left: 442px;
+        }
+    
+        #main-container {
+            height: 450px;
+            width: 100%;
+        }
 }
 
     /* ------------------------ <section>
                                   About me ------------------------ */
 @media (min-width: 414px) and (max-width: 669px) {
-    #txt-about {
-        font-size: 0.8rem;
-        top: 85px;
-    }
+        #txt-about {
+            font-size: 0.8rem;
+            top: 85px;
+        }
 }
 
     /* ------------------------ hover
         <section skills> ------------------------ */
 @media (hover: none) {
-    #moon-project,
-    #mars-project,
-    #astro-project,
-    #jupiter-project,
-    .project-container,
-    .style-img-project {
-        -webkit-tap-highlight-color: transparent;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        user-select: none;
-        outline: none;
-    }
-
-    #moon-project:active,
-    #mars-project:active,
-    #astro-project:active,
-    #jupiter-project:active {
-        background-color: transparent;
-        box-shadow: 0 0 5px 2px var(--text-details);
-        opacity: 0.7;
-        -webkit-tap-highlight-color: transparent;
-    }
+        #moon-project,
+        #mars-project,
+        #astro-project,
+        #jupiter-project,
+        .project-container,
+        .style-img-project {
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+            outline: none;
+        }
+    
+        #moon-project:active,
+        #mars-project:active,
+        #astro-project:active,
+        #jupiter-project:active {
+            background-color: transparent;
+            box-shadow: 0 0 5px 2px var(--text-details);
+            opacity: 0.7;
+            -webkit-tap-highlight-color: transparent;
+        }
 }
 
     /* ------------------------ réduction des animations
