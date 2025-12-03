@@ -1,6 +1,6 @@
 # dev-portfolio
 <pre>
-    * HI, THIS IS LEO'S PORTFOLIO * 
+    * HI, THIS IS MAX'S PORTFOLIO * 
     ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜  ·
                                          ·
                                             ·
@@ -36,7 +36,7 @@ The other option? Explore all my projects.
 Thanks for reading & see you in the near future.
 
 By coding more,  
-Leo DEV
+MAX DEV
 <pre>
      *    
      *    
